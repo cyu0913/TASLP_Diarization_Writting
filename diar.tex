@@ -5,9 +5,7 @@
 \usepackage{amssymb}
 \usepackage{booktabs,multirow}
 \usepackage{algpseudocode,algorithm2e}
-% correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
-
 
 \begin{document}
 %
@@ -65,20 +63,14 @@
 % You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
 % you desire.
 
-
-
-
 % If you want to put a publisher's ID mark on the page you can do it like
 % this:
 %\IEEEpubid{0000--0000/00\$00.00~\copyright~2012 IEEE}
 % Remember, if you use this you must call \IEEEpubidadjcol in the second
 % column for its text to clear the IEEEpubid mark.
 
-
-
 % use for special paper notices
 %\IEEEspecialpapernotice{(Invited Paper)}
-
 
 % make the title area
 \maketitle
@@ -224,7 +216,7 @@ While the above algorithms could effectively explore the speaker clusters in the
 \subsection{Consolidate}
 The FFQS during \textit{explore} stage is very effective in discovering all involved speaker with given audio stream. However, it is not effective, when we need to quickly gather enough instances for each cluster to obtain reliable speaker models. For this purpose, for each discovered clusters obtained from \textit{explore} stage, we uses a nearest neighbor query search (NNQS) approach, to select speech segments closest to it for human evaluation.  
 
-\begin{algorithm}
+\begin{algorithm}[b]
 	\KwData{$C_{k=1}^{k}$ initialized clusters, set of speech segments $X = {\{x_i\}}_{i=1}^n$, acess to the answers of pairwise queries, maximum number queries per cluster $Q_k$ user specified. }
 	\KwResult{$C_{k=1}^{k}$ with more instances.}
 	\For{each cluster $C_k$ in $C_{k=1}^{k}$}{
@@ -357,7 +349,19 @@ We also evaluate proposed algorithms in the popular 12-meeting subset of Augment
 \section{Experiments and Results}
 In this section, we will perform experiments to evaluate proposed active learning based algorithms for speaker diarization. 
 \subsection{System Setup}
+\subsubsection{Segmentation}
+As the purpose of this paper is to evaluate active learning based bottom-up cluster, we uses reference boundaries to define our segments. The use of such oracle segmentation information in our study is important, as we want to focus only the bottom-up clustering part, and not confused by the errors caused by incorrect segmentation. The previous study has shown that the clustering part of speaker diarization could be developed independent of other modules. Besides, having fixed segmentation and oracle pairwise query answers between segments, are necessary for developing active learning based algorithm, in order to avoid expensive human labeling.
+
+\subsubsection{i-vector extraction}
+The i-vector is extracted using the Mel-Frequency Cepstral Coefficients (MFCCs). The 13 dimensional MFCC with deltas are computed every 10ms using 25ms window. We uses 512 mixture universal background model (UBM) trained using the entire corpus data. The final i-vector has 32 dimension. 
+
 \subsection{Active Learning Based Cluster Initialization}
+In this experiments, we evaluate the performance of active learning based cluster initialization, by varying the amount of human effort in terms of number of queries. Note that, the total number of oracle queries to achieve perfect clustering result is $O(N^2)$, where $N$ is total segment in test audio.
+For all our experiments in this study, we will access to the reference answers of questioned pair, assuming no errors from human experts. However, in future study, it will be necessary to consider the human error into account.
+
+We will quantify the number of pair in terms of total segment number of N (e.g., $0.1 \cdot N$, $0.2 \cdot N$). In this experiment, we will use the same amount of queries for both \textit{explore} and \textit{consolidate} stage. For example, both using $0.1 \cdot N$.
+
+
 \subsection{Active Learning Based Cluster Reassignment}
 
 \section*{Acknowledgments}
@@ -365,22 +369,19 @@ This research was supported by National Science Foundation (NSF) under Grant 121
  
 
 
-\appendices
-\section{Proof of the First Zonklar Equation}
-Appendix one text goes here.
+%\appendices
+%\section{Proof of the First Zonklar Equation}
+%Appendix one text goes here.
 
 % you can choose not to have a title for an appendix
 % if you want by leaving the argument blank
-\section{}
-Appendix two text goes here.
-
+%\section{}
+%Appendix two text goes here.
 
 % use section* for acknowledgement
-\section*{Acknowledgment}
+%\section*{Acknowledgment}
 
-
-The authors would like to thank...
-
+%The authors would like to thank...
 
 % Can use something like this to put references on a page
 % by themselves when using endfloat and the captionsoff option.

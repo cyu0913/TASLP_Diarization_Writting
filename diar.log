@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.9.17)  25 DEC 2016 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.9.17)  27 DEC 2016 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,18 +309,18 @@ LaTeX Warning: Label `fig:boat1' multiply defined.
 )
 \openout1 = `diar.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count120
@@ -386,12 +386,12 @@ e
 
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 123.
+LaTeX Font Info:    Try loading font information for U+msa on input line 115.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 123.
+LaTeX Font Info:    Try loading font information for U+msb on input line 115.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -399,39 +399,35 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figs/flow3.png, id=10, 692.8284pt x 130.086pt>
 File: figs/flow3.png Graphic file (type png)
  <use figs/flow3.png>
-Package pdftex.def Info: figs/flow3.png used on input line 132.
+Package pdftex.def Info: figs/flow3.png used on input line 124.
 (pdftex.def)             Requested size: 516.0pt x 96.88539pt.
  [2]
 <figs/flow4.png, id=18, 727.9998pt x 132.495pt>
 File: figs/flow4.png Graphic file (type png)
  <use figs/flow4.png>
-Package pdftex.def Info: figs/flow4.png used on input line 197.
+Package pdftex.def Info: figs/flow4.png used on input line 189.
 (pdftex.def)             Requested size: 516.0pt x 93.91844pt.
- [3 <./figs/flow3.png>] [4 <./figs/flow4.png>]
-<figs/comm5.png, id=30, 789.95125pt x 494.84875pt>
-File: figs/comm5.png Graphic file (type png)
- <use figs/comm5.png>
-Package pdftex.def Info: figs/comm5.png used on input line 281.
-(pdftex.def)             Requested size: 252.0pt x 157.85648pt.
+ [3 <./figs/flow3.png>]
+Underfull \vbox (badness 1184) has occurred while \output is active []
 
-<figs/lens.png, id=31, 586.8324pt x 442.2924pt>
+ [4 <./figs/flow4.png>] <figs/comm5.png, id=30, 789.95125pt x 494.84875pt>
+File: figs/comm5.png Graphic file (type png)
+
+<use figs/comm5.png>
+Package pdftex.def Info: figs/comm5.png used on input line 273.
+(pdftex.def)             Requested size: 252.0pt x 157.85648pt.
+ <figs/lens.png, id=31, 586.8324pt x 442.2924pt>
 File: figs/lens.png Graphic file (type png)
- <use figs/lens.png>
-Package pdftex.def Info: figs/lens.png used on input line 299.
+
+<use figs/lens.png>
+Package pdftex.def Info: figs/lens.png used on input line 291.
 (pdftex.def)             Requested size: 252.0pt x 189.92557pt.
  [5 <./figs/comm5.png> <./figs/lens.png>]
-Overfull \hbox (18.14459pt too wide) in paragraph at lines 320--352
+Overfull \hbox (18.14459pt too wide) in paragraph at lines 312--344
  [][] 
  []
 
-(./diar.bbl [6]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ˜ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-) [7
+[6] (./diar.bbl) [7
 
 ] (./diar.aux)
 
@@ -443,10 +439,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4728 strings out of 495021
- 69574 string characters out of 6181344
- 148224 words of memory out of 5000000
- 7855 multiletter control sequences out of 15000+600000
+ 4702 strings out of 495021
+ 69102 string characters out of 6181344
+ 148132 words of memory out of 5000000
+ 7829 multiletter control sequences out of 15000+600000
  49291 words of font info for 98 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  38i,18n,28p,1993b,1944s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -462,7 +458,7 @@ msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diar.pdf (7 pages, 403308 bytes).
+Output written on diar.pdf (7 pages, 399305 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream

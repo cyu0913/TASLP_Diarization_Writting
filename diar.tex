@@ -3,7 +3,7 @@
 \usepackage[cmex10]{amsmath}
 \usepackage{graphicx}
 \usepackage{amssymb}
-\usepackage{booktabs,multirow}
+\usepackage{booktabs}
 \usepackage{algpseudocode,algorithm2e}
 \hyphenation{op-tical net-works semi-conduc-tor}
 
@@ -361,6 +361,33 @@ For all our experiments in this study, we will access to the reference answers o
 
 We will quantify the number of pair in terms of total segment number of N (e.g., $0.1 \cdot N$, $0.2 \cdot N$). In this experiment, we will use the same amount of queries for both \textit{explore} and \textit{consolidate} stage. For example, both using $0.1 \cdot N$.
 
+\begin{figure}
+	\includegraphics[width=\linewidth]{figs/exp1_1}
+	\caption{A boat.}
+	\label{fig:boat1}
+\end{figure}
+\begin{figure}
+	\includegraphics[width=\linewidth]{figs/exp1_2}
+	\caption{A boat.}
+	\label{fig:boat1}
+\end{figure}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+	\centering
+	\caption{My caption}
+	\label{my-label}
+	\small
+	\begin{tabular}{@{}lccc@{}}
+		\toprule
+		& explore (0.05)  & explore (0.1)  & explore (0.2)   \\ \midrule
+		Baseline            & 13.04 & 5.29 & 13.04 \\ \midrule
+		Random Selection    & 9.05  & 6.08 & 6.17  \\ \midrule
+		FFQS (random seed)  & 9.12  & 6.17 & 6.02  \\ \midrule
+		FFQS (cluster seed) & 9.09  & 5.29 & 6.15  \\ \bottomrule
+	\end{tabular}
+\end{table}
 
 \subsection{Active Learning Based Cluster Reassignment}
 

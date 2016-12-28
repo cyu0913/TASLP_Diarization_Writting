@@ -209,7 +209,8 @@ Due to the error propagation characteristics of bottom-up speaker clustering, ha
 The purpose of \textit{explore} phase, is to quickly discover all speaker clusters within the audio streams, finding at least one speech segment for each speaker cluster. To achieve this, we use the farthest first query search (FFQS) proposed by [Basu]. With FFQS, a speech segment is randomly selected from all speech segments to be used as seed segment. The selected speech segment is then used to initialize the first cluster. After creating the first speaker cluster, the next segment is selected which is farthest from existing clusters. The chosen segment is then provided for human to provide expert opinion. If the chosen segment belongs to existing clusters after pairwise comparison, the new segment is merged to the corresponding cluster. Otherwise, a new cluster is created from the selected segment. Note that, in order to decided if a given speech segment belongs to a target cluster or not, we compose a query pair using the segment in question and the longest segment within the target cluster. If the answer returns by human expert is true, then the segment belongs to the target cluster, and vice versa. The FFQS process continues until the pairwise comparison operations reached specified maximum number specified by user. The details of \textit{explore} phase is detailed in Algorithm.~\ref{a1}.  
 
 \begin{figure*}[t]
-	\includegraphics[width=\linewidth]{figs/comm5}
+\centering
+	\includegraphics[width=0.75\linewidth]{figs/comm5}
 	\caption{Apollo Mission Control Center (MCC) communication overview. The elements inside red dotted blocks are space-to-ground communications, including astronauts voice from space. The elements inside black dotted blocks are ground communications between hundreds of flight controllers and their 'backroom' supports. }
 	\label{fig:comm}
 \end{figure*} 
@@ -403,6 +404,7 @@ The i-vector is extracted using the Mel-Frequency Cepstral Coefficients (MFCCs).
 	\caption{Results of proposed active learning based cluster reassignment algorithm on Apollo Mission Control Center (Apollo-MCC) corpus. The red line is the diarization error rate (DER) using the expected speaker error (ESE) as criteria for candidates selection, while the blue dotted line is DER obtained by randomly selecting segments as candidates for evaluation and reassignment. The horizontal axis is the amount of candidate segments proportional to total number of speech segments $N$.}
 	\label{exp2_2}
 \end{figure}
+
 \subsection{Active Learning Based Speaker Clustering}
 In this experiments, we evaluate the performance of active learning based speaker clustering, by varying the amount of human effort in terms of number of queries. Note that, the total number of queries to achieve perfect clustering result is $\dfrac{N(N-1)}{2}$ , where $N$ is total segment in test audio.
 For all our experiments in this study, we will access to the reference answers of questioned pair, assuming no errors from human experts. However, in future study, it will be necessary to consider the human errors into account.
@@ -411,7 +413,7 @@ We will evaluate the proposed algorithm by varying the quantify of the pairs as 
 
 The red line in Figure.~\ref{exp1_1} and Figure.~\ref{exp1_2} shows the performance of proposed active learning based speaker clustering algorithm with varying amount of human input. The result with zero queries $0$x$N$, indicates results from baseline bottom-up speaker diarization algorithm. The first thing we notice is that the baseline DER in Apollo-MCC (40.63\%) is much higher than that of AMI dataset (10.83\%). Such difference in performances are expected due to the challenges within Apollo-MCC dataset we illustrated in Section.~\ref{apollo}. We could also see from the results, DER reduce rapidly with relatively small amount of human input. In case of AMI dataset, the DER reduce from 10.83\% to 9.09\%, a relative of 16\% reduction with only $0.05$x$N$ query pairs, and this number further reduce to 5.29\% with $0.1$x$N$ queries. In case of Apollo-MCC dataset, the proposed algorithm is also capable of effectively reducing the DER, although it requires much more human input compared with AMI dataset. This might attributes to the significantly larger participants within Apollo-MCC dataset, which requires more human input during \textit{explore} stage, to discover all involved speakers. 
 
-\begin{figure*}[h]
+\begin{figure*}[t]
 	\centering
 	\includegraphics[width=0.75\linewidth]{figs/exp3_1}
 	\caption{Results of proposed active learning based cluster reassignment algorithm on AMI meeting corpus. The red line is the diarization error rate (DER) using the expected speaker error (ESE) as criteria for candidates selection, while the blue dotted line is DER obtained by randomly selecting segments as candidates for evaluation and reassignment. The horizontal axis is the amount of candidate segments proportional to total number of speech segments $N$.}
@@ -462,6 +464,8 @@ The red lines in Figure.~\ref{exp2_1} and Figure.~\ref{exp2_2} indicates the per
 
 \subsubsection{Expected speaker error based candidate selection}
 In this section, we evaluate the effectiveness of using expected speaker error (ESE) as criteria for selecting segment candidates for human reassignment. We compare largest ESE based candidate selection with random segment selection. The red lines in Figure.~\ref{exp2_1} and Figure.~\ref{exp2_2} indicates the performance of using ESE as criteria, while the blue dotted line in Figure.~\ref{exp2_1} and Figure.~\ref{exp2_2} indicates the performance of random segment selection. The results clearly shows that the DER drops much faster with ESE based candidate selections, in both AMI and Apollo dataset.
+
+\section{Conclusion}
 
 \section*{Acknowledgments}
 This research was supported by National Science Foundation (NSF) under Grant 1219130.

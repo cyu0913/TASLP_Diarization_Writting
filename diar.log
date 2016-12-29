@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.9.17)  28 DEC 2016 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.9.17)  28 DEC 2016 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -377,12 +377,12 @@ e
 
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 126.
+LaTeX Font Info:    Try loading font information for U+msa on input line 123.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 126.
+LaTeX Font Info:    Try loading font information for U+msb on input line 123.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -390,69 +390,69 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figs/flow5.png, id=10, 660.5478pt x 157.0668pt>
 File: figs/flow5.png Graphic file (type png)
  <use figs/flow5.png>
-Package pdftex.def Info: figs/flow5.png used on input line 135.
+Package pdftex.def Info: figs/flow5.png used on input line 132.
 (pdftex.def)             Requested size: 516.0pt x 122.70332pt.
  [2]
 <figs/flow6.png, id=18, 727.9998pt x 132.495pt>
 File: figs/flow6.png Graphic file (type png)
  <use figs/flow6.png>
-Package pdftex.def Info: figs/flow6.png used on input line 203.
+Package pdftex.def Info: figs/flow6.png used on input line 200.
 (pdftex.def)             Requested size: 516.0pt x 93.91844pt.
  [3 <./figs/flow5.png>] <figs/comm5.png, id=26, 789.95125pt x 494.84875pt>
 File: figs/comm5.png Graphic file (type png)
 
 <use figs/comm5.png>
-Package pdftex.def Info: figs/comm5.png used on input line 213.
+Package pdftex.def Info: figs/comm5.png used on input line 210.
 (pdftex.def)             Requested size: 387.0pt x 242.42516pt.
  [4 <./figs/flow6.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 323.
+               Default added (so using `tbp') on input line 320.
 
 [5 <./figs/comm5.png>] <figs/lens.png, id=37, 586.8324pt x 442.2924pt>
 File: figs/lens.png Graphic file (type png)
 
 <use figs/lens.png>
-Package pdftex.def Info: figs/lens.png used on input line 350.
+Package pdftex.def Info: figs/lens.png used on input line 347.
 (pdftex.def)             Requested size: 252.0pt x 189.92557pt.
  [6 <./figs/lens.png>]
 <figs/exp1_1.png, id=42, 505.89pt x 289.08pt>
 File: figs/exp1_1.png Graphic file (type png)
  <use figs/exp1_1.png>
-Package pdftex.def Info: figs/exp1_1.png used on input line 375.
+Package pdftex.def Info: figs/exp1_1.png used on input line 372.
 (pdftex.def)             Requested size: 252.0pt x 144.0015pt.
 
 <figs/exp1_2.png, id=43, 505.89pt x 289.08pt>
 File: figs/exp1_2.png Graphic file (type png)
  <use figs/exp1_2.png>
-Package pdftex.def Info: figs/exp1_2.png used on input line 380.
+Package pdftex.def Info: figs/exp1_2.png used on input line 377.
 (pdftex.def)             Requested size: 252.0pt x 144.0015pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 384.
+               Default added (so using `tbp') on input line 381.
 
 
-Overfull \hbox (12.03111pt too wide) in paragraph at lines 388--396
+Overfull \hbox (12.03111pt too wide) in paragraph at lines 385--393
  [][] 
  []
 
 <figs/exp2_2.png, id=44, 505.89pt x 289.08pt>
 File: figs/exp2_2.png Graphic file (type png)
  <use figs/exp2_2.png>
-Package pdftex.def Info: figs/exp2_2.png used on input line 398.
+Package pdftex.def Info: figs/exp2_2.png used on input line 395.
 (pdftex.def)             Requested size: 252.0pt x 144.0015pt.
 
 <figs/exp2_1.png, id=45, 505.89pt x 288.5982pt>
 File: figs/exp2_1.png Graphic file (type png)
  <use figs/exp2_1.png>
-Package pdftex.def Info: figs/exp2_1.png used on input line 403.
+Package pdftex.def Info: figs/exp2_1.png used on input line 400.
 (pdftex.def)             Requested size: 252.0pt x 143.76149pt.
  [7 <./figs/exp1_1.png> <./figs/exp1_2.png>]
 <figs/exp3_1.png, id=53, 579.1236pt x 289.5618pt>
 File: figs/exp3_1.png Graphic file (type png)
  <use figs/exp3_1.png>
-Package pdftex.def Info: figs/exp3_1.png used on input line 418.
+Package pdftex.def Info: figs/exp3_1.png used on input line 415.
 (pdftex.def)             Requested size: 387.0pt x 193.50612pt.
 
 [8 <./figs/exp2_2.png> <./figs/exp2_1.png>]
@@ -489,7 +489,7 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on diar.pdf (9 pages, 689356 bytes).
+Output written on diar.pdf (9 pages, 689260 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream

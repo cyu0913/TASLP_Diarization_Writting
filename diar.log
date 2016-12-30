@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.20)  29 DEC 2016 10:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.20)  30 DEC 2016 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -297,24 +297,21 @@ LaTeX Warning: Label `ws2' multiply defined.
 
 LaTeX Warning: Label `jj' multiply defined.
 
-
-LaTeX Warning: Label `exp2_1' multiply defined.
-
 )
 \openout1 = `diar.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
  (/usr/local/texlive/2016basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count120
@@ -380,11 +377,11 @@ e
 
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 126.
+LaTeX Font Info:    Try loading font information for U+msa on input line 127.
  (/usr/local/texlive/2016basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 126.
+LaTeX Font Info:    Try loading font information for U+msb on input line 127.
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -392,80 +389,68 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figs/flow5.png, id=10, 660.5478pt x 157.0668pt>
 File: figs/flow5.png Graphic file (type png)
  <use figs/flow5.png>
-Package pdftex.def Info: figs/flow5.png used on input line 135.
+Package pdftex.def Info: figs/flow5.png used on input line 136.
 (pdftex.def)             Requested size: 516.0pt x 122.70332pt.
  [2]
 <figs/flow6.png, id=18, 727.9998pt x 132.495pt>
 File: figs/flow6.png Graphic file (type png)
  <use figs/flow6.png>
-Package pdftex.def Info: figs/flow6.png used on input line 197.
+Package pdftex.def Info: figs/flow6.png used on input line 198.
 (pdftex.def)             Requested size: 516.0pt x 93.91844pt.
  [3 <./figs/flow5.png>] <figs/comm5.png, id=26, 789.95125pt x 494.84875pt>
 File: figs/comm5.png Graphic file (type png)
 
 <use figs/comm5.png>
-Package pdftex.def Info: figs/comm5.png used on input line 214.
+Package pdftex.def Info: figs/comm5.png used on input line 215.
 (pdftex.def)             Requested size: 387.0pt x 242.42516pt.
  [4 <./figs/flow6.png>]
-Overfull \hbox (6.02443pt too wide) in paragraph at lines 292--324
+Overfull \hbox (6.02443pt too wide) in paragraph at lines 293--325
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 325.
+               Default added (so using `tbp') on input line 326.
 
 [5 <./figs/comm5.png>] <figs/lens.png, id=37, 586.8324pt x 442.2924pt>
 File: figs/lens.png Graphic file (type png)
 
 <use figs/lens.png>
-Package pdftex.def Info: figs/lens.png used on input line 352.
+Package pdftex.def Info: figs/lens.png used on input line 353.
 (pdftex.def)             Requested size: 252.0pt x 189.92557pt.
  [6 <./figs/lens.png>]
 <figs/exp1_1.png, id=42, 505.89pt x 289.08pt>
 File: figs/exp1_1.png Graphic file (type png)
  <use figs/exp1_1.png>
-Package pdftex.def Info: figs/exp1_1.png used on input line 378.
+Package pdftex.def Info: figs/exp1_1.png used on input line 379.
 (pdftex.def)             Requested size: 252.0pt x 144.0015pt.
 
 <figs/exp1_2.png, id=43, 505.89pt x 289.08pt>
 File: figs/exp1_2.png Graphic file (type png)
  <use figs/exp1_2.png>
-Package pdftex.def Info: figs/exp1_2.png used on input line 383.
+Package pdftex.def Info: figs/exp1_2.png used on input line 384.
 (pdftex.def)             Requested size: 252.0pt x 144.0015pt.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 387.
-
-
-Overfull \hbox (12.03111pt too wide) in paragraph at lines 391--399
- [][] 
- []
 
 <figs/exp2_2.png, id=44, 505.89pt x 289.08pt>
 File: figs/exp2_2.png Graphic file (type png)
  <use figs/exp2_2.png>
-Package pdftex.def Info: figs/exp2_2.png used on input line 401.
+Package pdftex.def Info: figs/exp2_2.png used on input line 402.
 (pdftex.def)             Requested size: 252.0pt x 144.0015pt.
 
 <figs/exp2_1.png, id=45, 505.89pt x 288.5982pt>
 File: figs/exp2_1.png Graphic file (type png)
  <use figs/exp2_1.png>
-Package pdftex.def Info: figs/exp2_1.png used on input line 406.
+Package pdftex.def Info: figs/exp2_1.png used on input line 407.
 (pdftex.def)             Requested size: 252.0pt x 143.76149pt.
  [7 <./figs/exp1_1.png> <./figs/exp1_2.png>]
 <figs/exp3_1.png, id=53, 579.1236pt x 289.5618pt>
 File: figs/exp3_1.png Graphic file (type png)
  <use figs/exp3_1.png>
-Package pdftex.def Info: figs/exp3_1.png used on input line 421.
+Package pdftex.def Info: figs/exp3_1.png used on input line 424.
 (pdftex.def)             Requested size: 387.0pt x 193.50612pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8 <./figs/exp2_2.png> <./figs/exp2_1.png>] [9 <./figs/exp3_1.png>] (./diar.bb
-l) [10]
-(./diar.aux)
+[8 <./figs/exp2_2.png> <./figs/exp2_1.png>] [9 <./figs/exp3_1.png>] (./diar.bbl
+) [10] (./diar.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -476,12 +461,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### bottom level 
 Here is how much of TeX's memory you used:
  4761 strings out of 494447
- 70810 string characters out of 6166765
- 160117 words of memory out of 5000000
+ 70812 string characters out of 6166765
+ 160123 words of memory out of 5000000
  8015 multiletter control sequences out of 15000+600000
  45572 words of font info for 90 fonts, out of 8000000 for 9000
  322 hyphenation exceptions out of 8191
- 38i,14n,28p,1557b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,28p,1526b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016basic/texmf-dist/fonts/enc/dvips/base/8
 r.enc}</usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mex10.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -497,7 +482,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on diar.pdf (10 pages, 649045 bytes).
+Output written on diar.pdf (10 pages, 650970 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.20)  30 DEC 2016 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.20)  31 DEC 2016 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -386,6 +386,9 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 127.
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+
 <figs/flow5.png, id=10, 660.5478pt x 157.0668pt>
 File: figs/flow5.png Graphic file (type png)
  <use figs/flow5.png>
@@ -462,7 +465,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4761 strings out of 494447
  70812 string characters out of 6166765
- 160123 words of memory out of 5000000
+ 160115 words of memory out of 5000000
  8015 multiletter control sequences out of 15000+600000
  45572 words of font info for 90 fonts, out of 8000000 for 9000
  322 hyphenation exceptions out of 8191
@@ -482,7 +485,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on diar.pdf (10 pages, 650970 bytes).
+Output written on diar.pdf (10 pages, 650963 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
